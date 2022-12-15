@@ -1,0 +1,24 @@
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\riad_yassine project.exe.config
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\riad_yassine project.exe
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\riad_yassine project.pdb
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.csproj.AssemblyReference.cache
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.csproj.SuggestedBindingRedirects.cache
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine_project.connecter.resources
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine_project.Properties.Resources.resources
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.csproj.GenerateResource.cache
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.csproj.CoreCompileInputs.cache
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.exe
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.pdb
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\SkiaSharp.dll.config
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\libSkiaSharp.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\libSkiaSharp.dylib
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\x86\libSkiaSharp.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\x64\libSkiaSharp.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\FontAwesome.Sharp.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\FontAwesome.Sharp.Pro.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\SkiaSharp.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\SkiaSharp.Extended.Iconify.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\SkiaSharp.Extended.Iconify.FontAwesome.dll
+D:\.net-pro\riad_yassine project\riad_yassine project\bin\Debug\SkiaSharp.xml
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine project.csproj.CopyComplete
+D:\.net-pro\riad_yassine project\riad_yassine project\obj\Debug\riad_yassine_project.Form2.resources
