@@ -37,7 +37,7 @@
             this.password = new System.Windows.Forms.TextBox();
             this.iconPictureBox2 = new FontAwesome.Sharp.IconPictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.login_button = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -92,7 +92,6 @@
             this.iconPictureBox1.Size = new System.Drawing.Size(32, 42);
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
-            this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click);
             // 
             // panel2
             // 
@@ -145,19 +144,20 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // login_button
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(124)))), ((int)(((byte)(207)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(221, 440);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 44);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Log in";
-            this.button2.UseVisualStyleBackColor = false;
+            this.login_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(124)))), ((int)(((byte)(207)))));
+            this.login_button.FlatAppearance.BorderSize = 0;
+            this.login_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.login_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.login_button.ForeColor = System.Drawing.Color.White;
+            this.login_button.Location = new System.Drawing.Point(221, 440);
+            this.login_button.Name = "login_button";
+            this.login_button.Size = new System.Drawing.Size(100, 44);
+            this.login_button.TabIndex = 4;
+            this.login_button.Text = "Log in";
+            this.login_button.UseVisualStyleBackColor = false;
+            this.login_button.Click += new System.EventHandler(this.login_button_Click);
             // 
             // button3
             // 
@@ -195,7 +195,7 @@
             this.ClientSize = new System.Drawing.Size(569, 601);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.login_button);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -226,7 +226,7 @@
         private System.Windows.Forms.TextBox password;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button login_button;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }

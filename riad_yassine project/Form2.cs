@@ -16,5 +16,10 @@ namespace riad_yassine_project
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
