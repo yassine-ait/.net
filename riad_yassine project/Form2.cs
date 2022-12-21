@@ -19,7 +19,17 @@ namespace riad_yassine_project
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            if (Log.type == "A")
+            {
+                user_simple.Visible = true;
+                etudiant.Visible = true; 
+                professeur.Visible = true;
+            }else if (Log.type == "U")
+            {
+                user_simple.Visible=false;
+                etudiant.Visible=true;
+                professeur.Visible=true;
+            }
         }
     }
 }

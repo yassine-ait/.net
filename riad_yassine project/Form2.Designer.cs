@@ -28,35 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.user_simple = new System.Windows.Forms.Button();
+            this.professeur = new System.Windows.Forms.Button();
+            this.etudiant = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // user_simple
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(409, 177);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 39);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ttttttttttttt";
+            this.user_simple.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.user_simple.Location = new System.Drawing.Point(157, 147);
+            this.user_simple.Name = "user_simple";
+            this.user_simple.Size = new System.Drawing.Size(235, 56);
+            this.user_simple.TabIndex = 0;
+            this.user_simple.Text = "user simple";
+            this.user_simple.UseVisualStyleBackColor = true;
+            // 
+            // professeur
+            // 
+            this.professeur.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.professeur.Location = new System.Drawing.Point(742, 147);
+            this.professeur.Name = "professeur";
+            this.professeur.Size = new System.Drawing.Size(235, 56);
+            this.professeur.TabIndex = 1;
+            this.professeur.Text = "professeur";
+            this.professeur.UseVisualStyleBackColor = true;
+            // 
+            // etudiant
+            // 
+            this.etudiant.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.etudiant.Location = new System.Drawing.Point(456, 147);
+            this.etudiant.Name = "etudiant";
+            this.etudiant.Size = new System.Drawing.Size(235, 56);
+            this.etudiant.TabIndex = 2;
+            this.etudiant.Text = "etudiant";
+            this.etudiant.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1185, 525);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.etudiant);
+            this.Controls.Add(this.professeur);
+            this.Controls.Add(this.user_simple);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button user_simple;
+        private System.Windows.Forms.Button professeur;
+        private System.Windows.Forms.Button etudiant;
     }
 }
