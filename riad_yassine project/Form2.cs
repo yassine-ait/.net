@@ -22,13 +22,23 @@ namespace riad_yassine_project
             if (Log.type == "A")
             {
                 user_simple.Visible = true;
-                etudiant.Visible = true; 
+                etudient.Visible = true; 
                 professeur.Visible = true;
+                classe.Visible = true;
+                filiere.Visible = true;
+                pay_etudient.Visible = true;
+                pay_professeur.Visible=true;
+                ecole.Visible = true;
             }else if (Log.type == "U")
             {
                 user_simple.Visible=false;
-                etudiant.Visible=true;
+                etudient.Visible=true;
                 professeur.Visible=true;
+                classe.Visible = true;
+                filiere.Visible = true;
+                pay_etudient.Visible = true;
+                pay_professeur.Visible = true;
+                ecole.Visible = true;
             }
         }
     }

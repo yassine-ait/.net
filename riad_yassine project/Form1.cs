@@ -71,33 +71,6 @@ namespace riad_yassine_project
                 }
             }catch (Exception E) { MessageBox.Show(E.Message); }
                     cn.Close();    
-           
-            
-            
-            
-            
-            
-            /*cn.Open();
-            using (SqlDataReader read = cmd.ExecuteReader())
-            {
-                while (read.Read())
-                {
-                    if (username.Text == read["username"].ToString() && password.Text == read["Password"].ToString())
-                    {
-                        new Form2().Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Username or Passeword incorrect,try again");
-                        username.Clear();
-                        password.Clear();
-                        username.Focus();
-                    }
-
-                }
-            }
-            cn.Close();*/
         }
 
         private void connecter_Load(object sender, EventArgs e)
